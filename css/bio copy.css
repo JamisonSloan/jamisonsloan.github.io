@@ -1,0 +1,8 @@
+.profile-pic {
+  overflow: hidden;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+}

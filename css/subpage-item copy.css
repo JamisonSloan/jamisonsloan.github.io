@@ -1,0 +1,39 @@
+.subpage-item {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--gray4);
+}
+
+.subpage-item:last-child {
+  border-bottom: none;
+}
+
+.subpage-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+
+.subpage-item h3 {
+  width: 100%;
+  margin: 0;
+}
+
+
+.subpage-item:hover {
+  color: var(--accent);
+  
+}
+
+.subpage-item:hover .icon-arrow-right {
+  transition: 0.04s ease-in;
+  margin-right: -0.2rem;
+}
+
+
+.subpage-item:hover .icon-arrow-top-right {
+  transition: 0.04s ease-in;
+  margin-right: -0.2rem;
+  margin-top: -0.2rem;
+}
