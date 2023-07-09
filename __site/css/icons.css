@@ -1,3 +1,12 @@
+.add-icon:after {
+  margin-left: 0.3rem;
+  margin-bottom: -0.1rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  display: inline-block;
+  content: "";
+  background-color: var(--gray3);
+}
 
 .icon-document:after {
   mask: url("/assets/icons/document.svg") no-repeat 50% 50%;
