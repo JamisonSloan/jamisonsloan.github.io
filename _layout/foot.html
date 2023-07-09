@@ -1,0 +1,15 @@
+
+  <!-- CONTENT ENDS HERE -->
+  <div class="page-foot">
+    <p>
+     {{isnotpage /tag/*}}Last modified: {{ fill fd_mtime
+      }}.{{end}} Website built with
+      <a href="https://github.com/tlienart/Franklin.jl" target="_blank">Franklin.jl</a> and the
+      <a href="https://julialang.org" target="_blank" >Julia programming language</a>.
+    </p>
+  </div>
+  <script src="/assets/scripts/script.js"></script>
+    {{ if hasmath }} {{ insert foot_katex.html }} {{ end }} {{ if hascode }} {{
+    insert foot_highlight.html }} {{ end }}
+  </body>
+</html>

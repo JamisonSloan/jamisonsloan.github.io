@@ -1,0 +1,9 @@
+.profile-pic {
+  overflow: hidden;
+  /* filter: grayscale(100%); */
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+}

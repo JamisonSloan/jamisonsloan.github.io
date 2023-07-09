@@ -1,0 +1,127 @@
+.section {
+  border-bottom: 1px solid var(--gray4);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 2.4rem;
+  margin: 3rem 0;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section > * {
+  flex: 1;
+}
+
+.section h4 {
+  margin: 0;
+}
+
+.section p,
+.section span {
+  font-size: 1rem;
+  color: var(--gray2);
+  line-height: 1.6rem;
+}
+
+.publication-list {
+  grid-column: 3/7;
+}
+
+.year {
+  grid-column: 2/2;
+  margin-top: 0.1rem;
+}
+
+.year span {
+  font-size: 0.9rem;
+}
+
+
+.publication-item {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 0.6rem;
+}
+
+.publication-item h5 {
+  margin: 0;
+}
+
+.publication-item a:hover {
+  color: var(--accent);
+}
+
+.publication-item h5:hover:after {
+  margin-left: 0.1rem;
+  margin-bottom: -0.1rem;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  content: '';
+  -webkit-mask: url('../img/icons/arrow-top-right.svg') no-repeat 50% 50%;
+  mask: url('../img/icons/arrow-top-right.svg') no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: var(--gray3);
+}
+
+
+button {
+  width: fit-content;
+  display: flex;
+  column-gap: 0.2rem;
+  align-items: center;
+  border: none;
+  padding: 0.05rem 0.6rem 0.04rem;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 1rem;
+}
+
+.publication-item button span {
+  font-size: 0.9rem;
+  color: var(--gray1);
+}
+
+button .add-icon:after {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-bottom: -0.1rem;
+  background-color: var(--gray1);
+  margin-left: 0.2rem;
+}
+
+
+.publication-item {
+  margin-bottom: 2.4rem;
+}
+
+@media(max-width: 1280px) {
+  .section {
+      grid-row-gap: 2rem;
+  }
+
+  .section:last-child .publication-item:last-child {
+      margin-bottom: 0;
+  }
+
+  h4 {
+      grid-column: 1/7;
+  }
+
+  .publication-list {
+      grid-column: 1/7;
+  }
+
+  .year {
+      grid-column: 1/3;
+      margin-top: 0.1rem;
+  }
+}

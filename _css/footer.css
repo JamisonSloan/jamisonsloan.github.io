@@ -1,0 +1,45 @@
+.page-foot {
+  grid-column: 3/11;
+  text-align: center;
+
+}
+
+.page-foot p {
+  font-size: 0.88rem;
+  color: var(--gray2);
+}
+
+/* adjusting the arrow size to match the font size */
+.page-foot p a:after {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.page-foot p a:before {
+ background-color: var(--gray4);
+}
+
+
+/* Responsive layout */
+
+@media (max-width: 1480px) {
+  .page-foot {
+    grid-column: 3/13;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  .page-foot {
+    grid-column: 4/13;
+  }
+}
+
+
+@media (max-width: 960px) {
+
+  .page-foot {
+    grid-column: 1/13;
+  }
+
+}

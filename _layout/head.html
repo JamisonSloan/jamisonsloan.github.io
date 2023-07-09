@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{if hasmath}} {{insert head_katex.html }}     {{end}}
+    {{if hascode}} {{insert head_highlight.html }}   {{end}}
+    {{insert style.html}}
+    {{isdef title}} <title>{{fill title}}</title>  {{end}}
+</head>
+<header>
+  <a href="/">
+      <h1>Jamison Sloan</h1>
+  </a>
+  <span>Optics and photonics</span>
+  <div class="links">
+      <a class="link-item icon-container" href="jamison_CV.pdf" target="_blank">
+          <span class=" add-icon  icon-arrow-top-right">CV</span>
+      </a>
+      <a class="link-item" href="https://scholar.google.com/citations?user=KWjWVgcAAAAJ&hl=en&oi=ao" target="_blank">
+          <span class=" add-icon  icon-arrow-top-right"> Google Scholar</span>
+
+      </a>
+      <a class="link-item" href="mailto: jamison@mit.edu">
+          <span class=" add-icon  icon-copy">Email</span>
+      </a>
+  </div>
+</header>
+<body>
+{{insert nav.html}}
+
+
+<!-- Content appended here -->
