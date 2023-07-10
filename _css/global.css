@@ -11,10 +11,6 @@
   --accent: #5e4eff;
 }
 
-/*Font imports*/
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200..600&family=Spline+Sans+Mono:wght@200..600&display=swap');
-
 * {
   box-sizing: border-box;
 }
@@ -97,7 +93,7 @@ h5, h5 a {
   font-weight: 500;
   font-variation-settings: "wght" 560;
   font-size: 1.24rem;
-  line-height: 1.35em;
+  line-height: 1.44em;
 }
 
 h6, h6 a {
@@ -120,7 +116,7 @@ b {
 
 p a, li a {
   color: var(--accent);
-  font-weight:  500;
+  font-variation-settings: "wght" 500;
   position: relative;
   display: inline-block;
 }
@@ -235,7 +231,7 @@ header .links .link-item {
   flex-shrink: 0;
 }
 
-header .links .add-icon:after {
+.add-icon:after {
   width: 1.1rem;
   height: 1.1rem;
   background-color: var(--gray2);

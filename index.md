@@ -1,5 +1,4 @@
 @def title = "bio"
-@def tags = ["syntax", "code"]
 
 # Bio
 
