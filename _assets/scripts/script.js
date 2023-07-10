@@ -12,13 +12,13 @@ if (selectedNavItem) {
 
 
 // finds external links and attaches an arrow icon
-const allAnchors = document.getElementsByTagName("a");
+// const allAnchors = document.getElementsByTagName("a");
 
-for (const anchor of allAnchors) {
-  if (anchor.getAttribute("target") === "_blank") {
-    anchor.classList.add("external-link")
-  } 
-}
+// for (const anchor of allAnchors) {
+//   if (anchor.getAttribute("target") === "_blank" && !anchor.parentNode.classList.contains("publication-item")) {
+//     anchor.classList.add("external-link")
+//   } 
+// }
 
 // const contentAnchors = document.querySelectorAll(".franklin-content a");
 
