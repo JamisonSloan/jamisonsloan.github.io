@@ -1,6 +1,8 @@
 .profile-pic {
   overflow: hidden;
   /* filter: grayscale(100%); */
+  min-width: 12rem;
+  max-width: 8rem;
 }
 
 .profile-pic img {

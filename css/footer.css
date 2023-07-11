@@ -1,11 +1,11 @@
 .page-foot {
   grid-column: 3/11;
   text-align: center;
-
+  padding: 2rem;
 }
 
 .page-foot p {
-  font-size: 0.88rem;
+  font-size: 0.8rem;
   color: var(--gray2);
 }
 
@@ -16,9 +16,8 @@
 }
 
 .page-foot p a:before {
- background-color: var(--gray4);
+  background-color: var(--gray4);
 }
-
 
 /* Responsive layout */
 
@@ -29,17 +28,13 @@
 }
 
 @media (max-width: 1280px) {
-
   .page-foot {
     grid-column: 4/13;
   }
 }
 
-
 @media (max-width: 960px) {
-
   .page-foot {
     grid-column: 1/13;
   }
-
 }
