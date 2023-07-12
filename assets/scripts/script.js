@@ -1,6 +1,6 @@
 // Selects current page on the navigation bar
 
-const pageTitle = document.title;
+const pageTitle = document.title.toLowerCase();
 
 const nav = document.getElementsByClassName("navigation");
 
@@ -10,15 +10,17 @@ if (selectedNavItem) {
   selectedNavItem.classList.add("selected");
 }
 
-
 // finds external links and attaches an arrow icon
 const allAnchors = document.getElementsByTagName("a");
 
 for (const anchor of allAnchors) {
-  if (anchor.getAttribute("href").includes("http") && !anchor.parentNode.classList.contains("publication-item")) {
-  anchor.setAttribute("target", "_blank");  
-  anchor.classList.add("external-link");
-  } 
+  if (
+    anchor.getAttribute("href").includes("http") &&
+    !anchor.parentNode.classList.contains("publication-item")
+  ) {
+    anchor.setAttribute("target", "_blank");
+    anchor.classList.add("external-link");
+  }
 }
 
 // const contentAnchors = document.querySelectorAll(".franklin-content a");
@@ -39,7 +41,5 @@ for (const anchor of allAnchors) {
 //   }
 
 // }
-
-
 
 // find internal links and attaches them to navigation bar

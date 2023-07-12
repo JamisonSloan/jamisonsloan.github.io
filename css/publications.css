@@ -16,6 +16,10 @@
   flex: 1;
 }
 
+.section > h6 {
+  margin-top: 0.2rem;
+}
+
 .section h5 {
   margin: 0;
   margin-bottom: 0.7rem;
@@ -23,7 +27,7 @@
   grid-column: 1/1;
 }
 
-.section h5 a {
+.section h5 a, h6 a {
   color: inherit;
   font-variation-settings: "wght" 580;
 }
@@ -63,7 +67,7 @@
 .section p,
 .section span,
 .year {
-  font-size: 1rem;
+  font-size: 0.98rem;
   color: var(--gray2);
   line-height: 1.6rem;
 }
