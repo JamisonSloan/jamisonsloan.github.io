@@ -3,55 +3,13 @@
 
 <url>
     <loc>https://jamisonsloan.github.io/writings/01/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://jamisonsloan.github.io/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://jamisonsloan.github.io/collaborators/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://jamisonsloan.github.io/research/02/index.html</loc>
-    <lastmod>2023-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://jamisonsloan.github.io/music/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://jamisonsloan.github.io/research/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://jamisonsloan.github.io/writings/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://jamisonsloan.github.io/presentations/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://jamisonsloan.github.io/publications/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
+    <loc>https://jamisonsloan.github.io/writings/02/index.html</loc>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
@@ -62,8 +20,50 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://jamisonsloan.github.io/writings/02/index.html</loc>
-    <lastmod>2023-07-11</lastmod>
+    <loc>https://jamisonsloan.github.io/research/index.html</loc>
+    <lastmod>2023-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jamisonsloan.github.io/collaborators/index.html</loc>
+    <lastmod>2023-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jamisonsloan.github.io/writings/index.html</loc>
+    <lastmod>2023-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jamisonsloan.github.io/research/02/index.html</loc>
+    <lastmod>2023-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jamisonsloan.github.io/index.html</loc>
+    <lastmod>2023-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jamisonsloan.github.io/presentations/index.html</loc>
+    <lastmod>2023-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jamisonsloan.github.io/publications/index.html</loc>
+    <lastmod>2023-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jamisonsloan.github.io/music/index.html</loc>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
