@@ -1,5 +1,4 @@
 header {
-  /* display: flex; */
   justify-content: space-between;
   align-items: baseline;
   grid-column: 1 / 13;
@@ -27,72 +26,6 @@ header span {
   font-size: 1.1rem;
   line-height: 1.7rem;
   font-variation-settings: "wght" 400;
-}
-
-header .links {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  column-gap: 0.92rem;
-  flex-shrink: 0;
-  margin-right: -0.44rem;
-  grid-column: 6/11;
-}
-
-header .links span {
-  font-size: 1rem;
-  font-variation-settings: "wght" 500;
-}
-
-header .links .link-item {
-  display: flex;
-  align-items: center;
-  column-gap: 0.52rem;
-  padding: 0.2rem 0.4rem;
-}
-
-.header .link-item > * {
-  flex-shrink: 0;
-}
-
-header .links .link-item .add-icon:after {
-  width: 1.2rem;
-  height: 1.2rem;
-  display: flex;
-  justify-content: center;
-  margin-top: -0.3rem;
-}
-
-header .links .link-item:hover > span {
-  color: var(--accent);
-}
-
-header .links .link-item:hover > .add-icon:after {
-  background-color: var(--accent);
-}
-
-header .links .external-link:after {
-  display: none;
-}
-
-header .email {
-  position: relative;
-}
-
-header .email .tooltip {
-  background-color: var(--gray0);
-  padding: 0.36rem 0.44rem 0.4rem;
-  color: white;
-  font-size: 0.8rem;
-  font-variation-settings: "wght" 400;
-  position: absolute;
-  display: none;
-  width: fit-content;
-  top: 100%;
-}
-
-header .email:hover .tooltip {
-  display: block;
 }
 
 /* Responsive layout */
@@ -140,6 +73,7 @@ header .email:hover .tooltip {
   header > .links {
     grid-column: 1/13;
     justify-content: flex-start;
+    margin-left: -0.8rem;
   }
 }
 

@@ -1,4 +1,4 @@
-@def title = "research"
+@def title = "Research"
 
 # Research
 

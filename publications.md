@@ -1,4 +1,4 @@
-@def title = "publications"
+@def title = "Publications"
 
 # Publications
 
@@ -6,7 +6,7 @@
 
 @@section
 
-##### Submitted
+###### Submitted
 
 @@year
 2021
@@ -32,7 +32,7 @@
 
 @@section
 
-##### Published / In press
+###### Published / In press
 
 @@year
 2021

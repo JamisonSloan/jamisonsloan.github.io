@@ -1,12 +1,13 @@
 .page-foot {
   grid-column: 3/11;
   text-align: center;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .page-foot p {
   font-size: 0.8rem;
   color: var(--gray2);
+  line-height: 1.4rem;
 }
 
 /* adjusting the arrow size to match the font size */

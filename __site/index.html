@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="stylesheet" href="/css/global.css" />
 <link rel="stylesheet" href="/css/header.css" />
+<link rel="stylesheet" href="/css/navigation.css" />
 <link rel="stylesheet" href="/css/footer.css" />
 <link rel="stylesheet" href="/css/bio.css" />
 <link rel="stylesheet" href="/css/publications.css" />
@@ -19,55 +20,57 @@
 
 <link rel="icon" href="/assets/favicon.png" />
  
-    <title>bio</title>
+    <meta property="og:image" content="assets/img/meta.png" />
+    <title>Bio</title>
     
   </head>
-  <header>
-    <a href="/">
-      <h2>Jamison Sloan</h2>
-    </a>
-    <span>Optics and photonics</span>
-    <div class="links">
-      <a class="link-item icon-container" href="jamison_CV.pdf" target="_blank">
-        <span class="add-icon icon-document"></span><span>CV</span>
-      </a>
-      <a
-        class="link-item"
-        href="https://scholar.google.com/citations?user=KWjWVgcAAAAJ&hl=en&oi=ao"
-        target="_blank"
-      >
-        <span class="add-icon icon-google-scholar"></span
-        ><span>Google Scholar</span>
-      </a>
-      <a class="link-item email" href="mailto: jamison@mit.edu">
-        <span class="add-icon icon-email"></span><span>Email</span>
-        <div class="tooltip">Click to copy</div>
-      </a>
-    </div>
-  </header>
+
   <body>
-      <div class="navigation">
+    <div class="sidebar">
+  <a href="/">
+    <h2>Jamison Sloan</h2>
+  </a>
+  <div class="navigation">
     <a class="navigation-item" id="bio" href="/">
-        <h6>Bio</h6>
+      <h6>Bio</h6>
     </a>
     <a class="navigation-item" id="research" href="/research/">
-        <h6>Research</h6>
+      <h6>Research</h6>
     </a>
     <a class="navigation-item" id="publications" href="/publications/">
-        <h6>Publications</h6>
+      <h6>Publications</h6>
     </a>
     <a class="navigation-item" id="presentations" href="/presentations">
-        <h6>Presentations</h6>
+      <h6>Presentations</h6>
     </a>
     <a class="navigation-item" id="collaborators" href="/collaborators">
-        <h6>Collaborators</h6>
+      <h6>Collaborators</h6>
     </a>
     <a class="navigation-item" id="writings" href="/writings/">
-        <h6>Writings</h6>
+      <h6>Writings</h6>
     </a>
     <a class="navigation-item" id="music" href="/music/">
-        <h6>Music</h6>
+      <h6>Music</h6>
     </a>
+  </div>
+
+  <div class="links">
+    <a class="link-item icon-container" href="jamison_CV.pdf" target="_blank">
+      <span class="add-icon icon-document"></span><span>CV</span>
+    </a>
+    <a
+      class="link-item"
+      href="https://scholar.google.com/citations?user=KWjWVgcAAAAJ&hl=en&oi=ao"
+      target="_blank"
+    >
+      <span class="add-icon icon-google-scholar"></span
+      ><span>Google Scholar</span>
+    </a>
+    <a class="link-item email" href="mailto: jamison@mit.edu">
+      <span class="add-icon icon-email"></span><span>Email</span>
+      <!-- <div class="tooltip">Click to copy</div> -->
+    </a>
+  </div>
 </div>
 
 
@@ -82,7 +85,7 @@
   <!-- CONTENT ENDS HERE -->
   <div class="page-foot">
     <p>
-     Last modified: July 10, 2023. Website built with
+     Last modified: July 11, 2023. Website built with
       <a href="https://github.com/tlienart/Franklin.jl" target="_blank">Franklin.jl</a> and the
       <a href="https://julialang.org" target="_blank" >Julia programming language</a>.
     </p>

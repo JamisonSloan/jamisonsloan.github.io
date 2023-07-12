@@ -1,4 +1,4 @@
-@def title="writings"
+@def title = "Writings"
 
 # Writings
 

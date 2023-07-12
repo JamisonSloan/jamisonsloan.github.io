@@ -1,4 +1,4 @@
-@def title = "bio"
+@def title = "Bio"
 
 # Bio
 
