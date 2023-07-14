@@ -12,10 +12,6 @@
 2023
 @@
 
-- ##### [Biasing the quantum vacuum to control macroscopic probability distributions](https://arxiv.org/abs/2303.03455)
-    - C Roques-Carmes\*, Y Salamin\*, **J Sloan**, G Velez, E Koskas, S Choi, N Rivera, S Kooi, JD Joannopoulos, M Soljačić\\ arXiv:2303.03455
-
-
 - ##### [Intense squeezed light from lasers with sharply nonlinear gain at optical frequencies](https://arxiv.org/abs/2306.01908)
     - L Nguyen, **J Sloan**, N Rivera, M Soljačić\\ arXiv:2306.01908
 
@@ -53,6 +49,10 @@
 @@year
 2023
 @@
+
+- ##### [Biasing the quantum vacuum to control macroscopic probability distributions](https://doi.org/10.1126/science.adh4920)
+    - C Roques-Carmes\*, Y Salamin\*, **J Sloan**, G Velez, E Koskas, S Choi, N Rivera, S Kooi, JD Joannopoulos, M Soljačić\\ Science.
+
 
 - ##### [Creating large Fock states and massively squeezed states in optics using systems with nonlinear bound states in the continuum](https://doi.org/10.1073/pnas.2219208120)
     - N Rivera\*, **J Sloan\***, Y Salamin, M Soljačić \\ Proceedings of the National Academy of Sciences
