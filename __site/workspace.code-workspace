@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "_assets"
+		},
+		{
+			"path": "_css"
+		},
+		{
+			"path": "_layout"
+		},
+		{
+			"path": "_libs"
+		},
+		{
+			"path": "research"
+		},
+		{
+			"path": "_rss"
+		},
+		{
+			"path": "__site"
+		},
+		{
+			"path": "writings"
+		}
+	]
+}

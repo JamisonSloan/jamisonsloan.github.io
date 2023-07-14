@@ -9,30 +9,60 @@
 ###### Submitted
 
 @@year
+2023
+@@
+
+- ##### [Biasing the quantum vacuum to control macroscopic probability distributions](https://arxiv.org/abs/2303.03455)
+    - C Roques-Carmes\*, Y Salamin\*, **J Sloan**, G Velez, E Koskas, S Choi, N Rivera, S Kooi, JD Joannopoulos, M Soljačić\\ arXiv:2303.03455
+
+
+- ##### [Intense squeezed light from lasers with sharply nonlinear gain at optical frequencies](https://arxiv.org/abs/2306.01908)
+    - L Nguyen, **J Sloan**, N Rivera, M Soljačić\\ arXiv:2306.01908
+
+@@year
+2022
+@@
+
+- ##### [Strong intensity noise condensation using nonlinear dispersive loss in semiconductor lasers](https://arxiv.org/abs/2212.07300)
+    - S Pontula\*, **J Sloan\***, N Rivera, M Soljačić\\ arXiv:2212.07300
+
+
+- ##### [Optical properties of dispersive time-dependent materials](https://arxiv.org/abs/2211.16166)
+    - **J Sloan**, N Rivera, JD Joannopoulos, M Soljačić\\ arXiv:2211.16166
+
+
+- ##### [Quantum electrodynamical metamaterials](https://arxiv.org/abs/2209.02656)
+    - J Yu\*, **J Sloan\***, N Rivera, M Soljačić\\ arXiv:2209.02656
+
+
+@@year
 2021
 @@
 
 
-
 - ##### [Fock lasers based on deep-strong coupling of light and matter](https://arxiv.org/abs/2111.07010)
     - N Rivera, **J Sloan**, I Kaminer, M Soljacic \\ arXiv:2111.07010
-    - ~~~ <button><span class="add-icon icon-arrow-top-right">PDF</button> ~~~
-
-
-- ##### [Macroscopic condensation of photon noise in sharply nonlinear dissipative systems](https://arxiv.org/abs/2111.03099)
-    - N Rivera, **J Sloan**, Y Salamin, M Soljacic \\ arXiv:2111.03099
-
-
-
-- ##### [A general framework for scintillation in nanophotonics](https://arxiv.org/abs/2110.11492)
-
-    - C Roques-Carmes, N Rivera, Ghorashi, S Kooi, Y Yang, Z Lin, J Beroz, A Massuda, **J Sloan**, N Romeo, Y Yu, JD Joannopoulos, I Kaminer, SG Johnson, M Soljačić\\ arXiv:2110.11492
+    - ~~~ <button><span class="add-icon icon-arrow-top-right">PDF</button> ~~~ 
 
 @@
 
 @@section
 
 ###### Published / In press
+
+@@year
+2023
+@@
+
+- ##### [Creating large Fock states and massively squeezed states in optics using systems with nonlinear bound states in the continuum](https://doi.org/10.1073/pnas.2219208120)
+    - N Rivera\*, **J Sloan\***, Y Salamin, M Soljačić \\ Proceedings of the National Academy of Sciences
+
+@@year
+2022
+@@
+
+- ##### [A framework for scintillation in nanophotonics](https://doi.org/10.1126/science.abm9293)
+    - C Roques-Carmes\*, N Rivera\*, Ghorashi, S Kooi, Y Yang, Z Lin, J Beroz, A Massuda, **J Sloan**, N Romeo, Y Yu, JD Joannopoulos, I Kaminer, SG Johnson, M Soljačić\\ Science
 
 @@year
 2021
