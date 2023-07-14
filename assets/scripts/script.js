@@ -1,6 +1,6 @@
 // Selects current page on the navigation bar
 
-const pageTitle = document.title.toLowerCase();
+const pageTitle = document.title.toLowerCase().replace(/\s/g, "-");
 
 const nav = document.getElementsByClassName("navigation");
 
@@ -15,7 +15,8 @@ const allAnchors = document.getElementsByTagName("a");
 
 for (const anchor of allAnchors) {
   if (
-    anchor.getAttribute("href").includes("http") &&
+    anchor.getAttribute("href").includes("http") 
+    || anchor.getAttribute("href").includes(".pdf") &&
     !anchor.parentNode.classList.contains("publication-item")
   ) {
     anchor.setAttribute("target", "_blank");
@@ -43,3 +44,25 @@ for (const anchor of allAnchors) {
 // }
 
 // find internal links and attaches them to navigation bar
+
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+var subNavElems = document.querySelectorAll(".sub-navigation");
+
+const navDiv = document.getElementsByClassName("navigation")[0];
+
+for (const subNavElem of subNavElems) {
+  const parentPage = subNavElem.getAttribute("href").split("/")[1];
+  console.log(parentPage);
+  const parentPageNavElem = document.getElementById(parentPage);
+  console.log(parentPageNavElem);
+
+ 
+  navDiv.removeChild(subNavElem);
+
+  // console.log(parentPageNavElem.nextElementSibling);
+  navDiv.insertBefore(subNavElem, parentPageNavElem.nextElementSibling)
+  // insertAfter(parentPageNavElem, subNavElem);
+}
