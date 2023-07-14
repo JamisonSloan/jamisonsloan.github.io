@@ -68,12 +68,16 @@
 }
 
 .sub-navigation {
-  display: block;
+  display: none;
   margin-left: 1.4rem;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   font-variation-settings: "wght" 420;
+}
+
+.active {
+  display: block;
 }
 
 .sub-navigation span {
