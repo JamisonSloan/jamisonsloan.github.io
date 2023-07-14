@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="stylesheet" href="/css/global.css" />
 <link rel="stylesheet" href="/css/header.css" />
-<link rel="stylesheet" href="/css/navigation.css" />
+<link rel="stylesheet" href="/css/sidebar.css" />
 <link rel="stylesheet" href="/css/footer.css" />
 <link rel="stylesheet" href="/css/bio.css" />
 <link rel="stylesheet" href="/css/publications.css" />
@@ -26,51 +26,64 @@
   </head>
 
   <body>
-    <div class="sidebar">
-  <a href="/">
-    <h2>Jamison Sloan</h2>
-  </a>
-  <div class="navigation">
-    <a class="navigation-item" id="bio" href="/">
-      <h6>Bio</h6>
+    <div class="sidebar-container">
+  <div class="sidebar">
+    <a href="/">
+      <h2>Jamison Sloan</h2>
     </a>
-    <a class="navigation-item" id="research" href="/research/">
-      <h6>Research</h6>
-    </a>
-    <a class="navigation-item" id="publications" href="/publications/">
-      <h6>Publications</h6>
-    </a>
-    <a class="navigation-item" id="presentations" href="/presentations">
-      <h6>Presentations</h6>
-    </a>
-    <a class="navigation-item" id="collaborators" href="/collaborators">
-      <h6>Collaborators</h6>
-    </a>
-    <a class="navigation-item" id="writings" href="/writings/">
-      <h6>Writings</h6>
-    </a>
-    <a class="navigation-item" id="music" href="/music/">
-      <h6>Music</h6>
-    </a>
+    <div class="navigation">
+      <a class="navigation-item" id="bio" href="/">
+        <span>Bio</span>
+      </a>
+      <a class="navigation-item" id="research" href="/research/">
+        <span>Research</span>
+      </a>
+      <a class="navigation-item" id="publications" href="/publications/">
+        <span>Publications</span>
+      </a>
+      <a class="navigation-item" id="presentations" href="/presentations">
+        <span>Presentations</span>
+      </a>
+      <a class="navigation-item" id="collaborators" href="/collaborators">
+        <span>Collaborators</span>
+      </a>
+      <a class="navigation-item" id="writings" href="/writings/">
+        <span>Writings</span>
+      </a>
+      <a class="navigation-item" id="music" href="/music/">
+        <span>Music</span>
+      </a>
+          <a class="sub-navigation" href="/research/01" id="optics-in-strongly-driven-systems"><span>Optics in strongly driven systems</span></a>
+    <a class="sub-navigation" href="/research/02" id="nonlinear-quantum-optics"><span>Nonlinear quantum optics</span></a>
+    <a class="sub-navigation" href="/writings/01" id="sample-blog-post-#1"><span>Sample blog post #1</span></a>
+    <a class="sub-navigation" href="/writings/02" id="sample-blog-post-#2"><span>Sample blog post #2</span></a>
+    <a class="sub-navigation" href="/writings/03" id="sample-blog-post-#3"><span>Sample blog post #3</span></a>
+
+    </div>
+  
+    <div class="links">
+      <a
+        class="link-item icon-container"
+        href="/assets/jamison_CV.pdf"
+        target="_blank"
+      >
+        <span class="add-icon icon-document"></span><span>CV</span>
+      </a>
+      <a
+        class="link-item"
+        href="https://scholar.google.com/citations?user=KWjWVgcAAAAJ&hl=en&oi=ao"
+        target="_blank"
+      >
+        <span class="add-icon icon-google-scholar"></span
+        ><span>Google Scholar</span>
+      </a>
+      <a class="link-item email" href="mailto: jamison@mit.edu">
+        <span class="add-icon icon-email"></span><span>Email</span>
+        <!-- <div class="tooltip">Click to copy</div> -->
+      </a>
+    </div>
   </div>
 
-  <div class="links">
-    <a class="link-item icon-container" href="jamison_CV.pdf" target="_blank">
-      <span class="add-icon icon-document"></span><span>CV</span>
-    </a>
-    <a
-      class="link-item"
-      href="https://scholar.google.com/citations?user=KWjWVgcAAAAJ&hl=en&oi=ao"
-      target="_blank"
-    >
-      <span class="add-icon icon-google-scholar"></span
-      ><span>Google Scholar</span>
-    </a>
-    <a class="link-item email" href="mailto: jamison@mit.edu">
-      <span class="add-icon icon-email"></span><span>Email</span>
-      <!-- <div class="tooltip">Click to copy</div> -->
-    </a>
-  </div>
 </div>
 
 
@@ -88,13 +101,13 @@
 <li><p>Waves in Time-Varying Media 2021 &#40;OSA best poster award&#41;</p>
 </li>
 </ul>
-<p>See <a href="/assets/jamison_CV.pdf" class="external-link">CV</a> for a full list of conference presentations.</p>
+<p>See <a href="/assets/jamison_CV.pdf">CV</a> for a full list of conference presentations.</p>
 
 </div>
   <!-- CONTENT ENDS HERE -->
   <div class="page-foot">
     <p>
-     Last modified: July 11, 2023. Website built with
+     Last modified: July 12, 2023. Website built with
       <a href="https://github.com/tlienart/Franklin.jl" target="_blank">Franklin.jl</a> and the
       <a href="https://julialang.org" target="_blank" >Julia programming language</a>.
     </p>

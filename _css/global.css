@@ -23,6 +23,7 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 2fr);
+
   grid-row-gap: 2.4rem;
   grid-column-gap: 2.4rem;
   padding: 3rem 3rem;
@@ -163,7 +164,7 @@ li a {
 
 /*Underline animation*/
 p a:before,
-li a:before {
+li a:before, .breadcrumbs .backlink:after  {
   content: "";
   position: absolute;
   width: 100%;
@@ -177,19 +178,7 @@ li a:before {
   mix-blend-mode: darken;
 }
 
-.breadcrumbs .backlink:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 0.6rem;
-  bottom: 0.14rem;
-  left: 0;
-  background-color: var(--gray5);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-  mix-blend-mode: darken;
-}
+
 
 p a:hover:before,
 li a:hover:before,
@@ -354,6 +343,7 @@ ol li a {
   .franklin-content {
     grid-column: 1/13;
     padding: 3rem 3rem;
+    border-radius: 0.6rem;
   }
 
   .franklin-content h1 {
@@ -381,7 +371,7 @@ ol li a {
   }
 
   .franklin-content {
-    padding: 0 2rem 2.6rem;
+    padding: 0 1.6rem 2rem;
     grid-row-gap: 1rem;
   }
 
