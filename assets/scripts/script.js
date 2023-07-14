@@ -11,14 +11,10 @@ for (const subNavElem of subNavElems) {
 
 // Finds the next navigation element after the parent page that's not a sub-navigation element
 function findNextNavElem(parentPageNavElem) {
-  const navItems = document.querySelectorAll(".navigation a");
-  const parentPageNavIndex = Array.from(navItems).indexOf(parentPageNavElem);
+  const navItems = Array.from(document.querySelectorAll(".navigation a"));
+  const parentPageNavIndex = navItems.indexOf(parentPageNavElem);
 
-  for (let i = parentPageNavIndex + 1; i < navItems.length; i++) {
-    if (!navItems[i].classList.contains("sub-navigation")) {
-      return navItems[i];
-    }
-  }
+  return navItems.slice(parentPageNavIndex + 1).find(navItem => !navItem.classList.contains("sub-navigation"));
 }
 
 // Selects current page on the navigation bar
@@ -30,6 +26,7 @@ if (selectedNavItem) {
   displaySubNavElem(selectedNavItem);
 }
 
+// Takes the selected navigation item and displays its sub-navigation elements
 function displaySubNavElem(selectedNavItem) {
   const navItems = document.querySelectorAll(".navigation a");
   const parentPageId = selectedNavItem.classList.contains("sub-navigation")
@@ -37,25 +34,20 @@ function displaySubNavElem(selectedNavItem) {
     : selectedNavItem.getAttribute("id");
 
   for (const navItem of navItems) {
-    if (
-      navItem.classList.contains("sub-navigation") &&
-      navItem.getAttribute("href").includes(parentPageId)
-    ) {
+    if (navItem.classList.contains("sub-navigation") && navItem.getAttribute("href").includes(parentPageId)) {
       navItem.style.display = "flex";
+      document.getElementById(parentPageId).classList.add("selected-parent");
     }
   }
 }
 
 // Finds external links and attaches an arrow icon
-const allAnchors = document.getElementsByTagName("a");
+const allAnchors = document.querySelectorAll("a");
 
 for (const anchor of allAnchors) {
   const href = anchor.getAttribute("href");
 
-  if (
-    href.includes("http") ||
-    (href.includes(".pdf") && !anchor.parentNode.classList.contains("publication-item"))
-  ) {
+  if (href.includes("http") || (href.includes(".pdf") && !anchor.parentNode.classList.contains("publication-item"))) {
     anchor.setAttribute("target", "_blank");
     anchor.classList.add("external-link");
   }
