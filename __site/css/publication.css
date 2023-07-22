@@ -49,24 +49,26 @@
   margin: 0;
 }
 
-.publication-item a:hover {
-  color: var(--accent);
+@media (hover: hover) {
+  .publication-item a:hover {
+    color: var(--accent);
+  }
+  
+  .publication-item h5:hover:after {
+    margin-left: 0.1rem;
+    margin-bottom: -0.1rem;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    content: '';
+    -webkit-mask: url('../img/icons/arrow-top-right.svg') no-repeat 50% 50%;
+    mask: url('../img/icons/arrow-top-right.svg') no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    background-color: var(--gray3);
+  }
+  
 }
-
-.publication-item h5:hover:after {
-  margin-left: 0.1rem;
-  margin-bottom: -0.1rem;
-  width: 1rem;
-  height: 1rem;
-  display: inline-block;
-  content: '';
-  -webkit-mask: url('../img/icons/arrow-top-right.svg') no-repeat 50% 50%;
-  mask: url('../img/icons/arrow-top-right.svg') no-repeat 50% 50%;
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  background-color: var(--gray3);
-}
-
 
 button {
   width: fit-content;
