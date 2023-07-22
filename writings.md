@@ -1,4 +1,5 @@
 @def title = "Writings"
+@def excludeFromNav = true
 
 # Writings
 

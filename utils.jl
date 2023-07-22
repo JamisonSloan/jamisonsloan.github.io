@@ -63,10 +63,6 @@ function hfun_navigation()
         folderUrl = "/$folder/"
         folderName = string(uppercase(folder[1]), lowercase(folder[2:end]))
         
-        # write(io, """
-        #     <a class="navigation-item" href="$folderUrl" id="$folderName"><span>$folderName</span></a>
-        # """)
-        
         # Generate sub-navigation HTML for Markdown files within the folder
         folderPath = joinpath(rootDir, folder)
         folderFiles = filter(file -> endswith(file, ".md"), readdir(folderPath))
@@ -85,28 +81,6 @@ function hfun_navigation()
             end
         end
     end
-    
-    # Generate navigation HTML for Markdown files in the root directory
-    # for file in markdownFiles
-    #     fileUrl = lstrip(splitext(file)[1], '/')
-        
-    #     if fileUrl == "index"
-    #         fileUrl = "/"
-    #     else
-    #         fileUrl = "/$fileUrl"
-    #     end
-        
-    #     fileName = string(uppercase(file[1]), lowercase(file[2:end-3]))
-    #     title = pagevar(file, :title)
-    #     excludeFromNav = pagevar(file, :excludeFromNav)
-    #     order = pagevar(file, :order)
-        
-    #     if !isnothing(title) && (isnothing(excludeFromNav) || !excludeFromNav)
-    #         write(io, """
-    #             <a class="navigation-item" href="$fileUrl" id="$title"><span>$title</span></a>
-    #         """)
-    #     end
-    # end
-    
+
     return String(take!(io))
 end

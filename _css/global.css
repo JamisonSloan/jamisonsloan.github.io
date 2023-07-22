@@ -376,9 +376,13 @@ ol li a {
   }
 
   .franklin-content h1 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
     line-height: 2.4rem;
+    padding: 0;
     border: none;
+  }
+
+  .franklin-content h1 a {
+    font-size: 1.8rem;
   }
 }
