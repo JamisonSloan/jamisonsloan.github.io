@@ -154,10 +154,14 @@ p a:before,
   mix-blend-mode: darken;
 }
 
-p a:hover:before,
-.breadcrumbs .backlink:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+
+
+@media (hover: hover) {
+  p a:hover:before,
+  .breadcrumbs .backlink:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 }
 
 main {
@@ -183,8 +187,12 @@ header h1 {
   min-width: 18.5rem;
 }
 
-header h1:hover {
-  color: var(--accent);
+
+@media (hover: hover) {
+  header h1:hover {
+    color: var(--accent);
+  }
+  
 }
 
 header span {
@@ -247,9 +255,13 @@ header .links .link-item {
   -webkit-mask-size: contain;
 }
 
-header .links .link-item:hover,
-button:hover {
-  background-color: var(--highlight);
+
+
+@media (hover: hover) {
+  header .links .link-item:hover,
+  button:hover {
+    background-color: var(--highlight);
+  }
 }
 
 .links img {
@@ -276,8 +288,12 @@ button:hover {
   border-radius: 0.6rem;
 }
 
-.navigation-item:hover {
-  background-color: var(--gray4);
+
+
+@media (hover: hover) {
+  .navigation-item:hover {
+    background-color: var(--gray4);
+  }
 }
 
 .navigation .selected {

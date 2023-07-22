@@ -13,8 +13,11 @@ header > a {
   grid-column: 1/3;
 }
 
-header h2:hover {
-  color: var(--accent);
+
+@media (hover: hover) {
+  header h2:hover {
+    color: var(--accent);
+  }
 }
 
 header > span {
