@@ -139,3 +139,9 @@ button .add-icon:after {
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 640px) {
+  .year, .section ul, .section > h6 {
+    grid-column: 1/7;
+  }
+}
