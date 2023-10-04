@@ -73,8 +73,9 @@ function hfun_navigation()
             
             title = pagevar(joinpath(folderPath, file), :title)
             id = replace(lowercase(title), r"\s+" => "-")
+            draft = locvar(:draft)
             
-            if !isnothing(title)
+            if !isnothing(title) && isnothing(draft) && draft != true
                 write(io, """
                     <a class="sub-navigation" href="$fileUrl" id="$id"><span>$title</span></a>
                 """)
