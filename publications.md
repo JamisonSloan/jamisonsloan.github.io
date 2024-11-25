@@ -9,11 +9,15 @@
 ###### Submitted
 
 @@year
+2024
+@@
+
+
+
+@@year
 2023
 @@
 
-- ##### [Intense squeezed light from lasers with sharply nonlinear gain at optical frequencies](https://arxiv.org/abs/2306.01908)
-    - L Nguyen, **J Sloan**, N Rivera, M Soljačić\\ arXiv:2306.01908
 
 @@year
 2022
@@ -23,23 +27,6 @@
     - S Pontula\*, **J Sloan\***, N Rivera, M Soljačić\\ arXiv:2212.07300
 
 
-- ##### [Optical properties of dispersive time-dependent materials](https://arxiv.org/abs/2211.16166)
-    - **J Sloan**, N Rivera, JD Joannopoulos, M Soljačić\\ arXiv:2211.16166
-
-
-- ##### [Quantum electrodynamical metamaterials](https://arxiv.org/abs/2209.02656)
-    - J Yu\*, **J Sloan\***, N Rivera, M Soljačić\\ arXiv:2209.02656
-
-
-@@year
-2021
-@@
-
-
-- ##### [Fock lasers based on deep-strong coupling of light and matter](https://arxiv.org/abs/2111.07010)
-    - N Rivera, **J Sloan**, I Kaminer, M Soljacic \\ arXiv:2111.07010
-    - ~~~ <button><span class="add-icon icon-arrow-top-right">PDF</button> ~~~ 
-
 @@
 
 @@section
@@ -47,8 +34,25 @@
 ###### Published / In press
 
 @@year
+2024
+@@
+
+- ##### [Optical properties of dispersive time-dependent materials](https://pubs.acs.org/doi/full/10.1021/acsphotonics.3c00773)
+    - **J Sloan**, N Rivera, JD Joannopoulos, M Soljačić\\ ACS Photonics.
+
+@@year
 2023
 @@
+
+- ##### [Nonperturbative electromagnetic nonlinearities, n-photon reflectors, and Fock-state lasers based on deep-strong coupling of light and matter](https://doi.org/10.1103/PhysRevResearch.5.043240)
+    - N Rivera, **J Sloan**, I Kaminer, M Soljacic \\ arXiv:2111.07010
+    - ~~~ <button><span class="add-icon icon-arrow-top-right">PDF</button> ~~~ 
+
+- ##### [Quantum electrodynamical metamaterials](https://doi.org/10.1103/PhysRevA.108.033509)
+    - J Yu\*, **J Sloan\***, N Rivera, M Soljačić\\ Physical Review A.
+
+- ##### [Intense squeezed light from lasers with sharply nonlinear gain at optical frequencies](https://doi.org/10.1103/PhysRevLett.131.173801)
+    - L Nguyen, **J Sloan**, N Rivera, M Soljačić\\ Physical Review Letters.
 
 - ##### [Biasing the quantum vacuum to control macroscopic probability distributions](https://doi.org/10.1126/science.adh4920)
     - C Roques-Carmes\*, Y Salamin\*, **J Sloan**, G Velez, E Koskas, S Choi, N Rivera, S Kooi, JD Joannopoulos, M Soljačić\\ Science.
