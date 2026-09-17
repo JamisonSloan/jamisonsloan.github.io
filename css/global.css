@@ -179,17 +179,13 @@ li a:before, .breadcrumbs .backlink:after  {
 }
 
 
-@media (hover: hover) {
-  p a:hover:before,
-  li a:hover:before,
-  .breadcrumbs .backlink:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+
+p a:hover:before,
+li a:hover:before,
+.breadcrumbs .backlink:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
-
-
-
 
 blockquote {
   border-left: 0.24rem solid var(--gray1);
@@ -208,13 +204,9 @@ blockquote p {
   margin-bottom: -0.16rem;
 }
 
-@media (hover: hover) {
-  button:hover {
-    background-color: var(--gray4);
-  } 
+button:hover {
+  background-color: var(--gray4);
 }
-
-
 
 .links img {
   width: 14px;
