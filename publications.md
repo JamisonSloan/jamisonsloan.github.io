@@ -6,6 +6,35 @@ Papers marked with * have equal contributions.
 
 @@section
 
+###### Submitted papers
+
+@@year
+2026
+@@
+
+- ##### [Vacuum Fluctuation-Induced State Switching in Degenerate Optical Parametric Oscillators](https://arxiv.org/abs/2606.28178)
+    - Yihao Huang, Seou Choi, Rom Simovitch, **Jamison Sloan**, Charles Roques-Carmes, Michael Horodynski, Marin Soljačić, Yannick Salamin\\ arXiv:2606.28178 (2026).
+
+@@year
+2025
+@@
+
+- ##### [Programmable control of the spatiotemporal quantum noise of light](https://arxiv.org/abs/2509.03482)
+    - **Jamison Sloan\***, Michael Horodynski\*, Shiekh Zia Uddin\*, Yannick Salamin, Michael Birk, Pavel Sidorenko, Ido Kaminer, Marin Soljačić, Nicholas Rivera\\ arXiv:2509.03482 (2025).
+
+- ##### [Noise immunity in quantum optical systems through non-Hermitian topology](https://arxiv.org/abs/2503.11620)
+    - **Jamison Sloan\***, Sachin Vaidya\*, Nicholas Rivera, Marin Soljačić\\ arXiv:2503.11620 (2025).
+
+@@year
+2023
+@@
+
+- ##### [Entangling extreme ultraviolet photons through strong field pair generation](https://arxiv.org/abs/2309.16466)
+    - **Jamison Sloan**, Alexey Gorlach, Matan Even Tzur, Nicholas Rivera, Oren Cohen, Ido Kaminer, Marin Soljačić\\ arXiv:2309.16466 (2023).
+
+@@
+@@section
+
 ###### Published papers
 
 @@year
@@ -114,34 +143,5 @@ Papers marked with * have equal contributions.
 
 - ##### [Uncertainty quantification for the discrimination of nuclear events as violations of the comprehensive nuclear-test-ban treaty](https://www.sciencedirect.com/science/article/pii/S0265931X16300455)
     - **Jamison Sloan**, Yunwei Sun, Charles Carrigan\\ Journal of Environmental Radioactivity (2016).
-
-@@
-@@section
-
-###### Submitted papers
-
-@@year
-2026
-@@
-
-- ##### [Vacuum Fluctuation-Induced State Switching in Degenerate Optical Parametric Oscillators](https://arxiv.org/abs/2606.28178)
-    - Yihao Huang, Seou Choi, Rom Simovitch, **Jamison Sloan**, Charles Roques-Carmes, Michael Horodynski, Marin Soljačić, Yannick Salamin\\ arXiv:2606.28178 (2026).
-
-@@year
-2025
-@@
-
-- ##### [Programmable control of the spatiotemporal quantum noise of light](https://arxiv.org/abs/2509.03482)
-    - **Jamison Sloan\***, Michael Horodynski\*, Shiekh Zia Uddin\*, Yannick Salamin, Michael Birk, Pavel Sidorenko, Ido Kaminer, Marin Soljačić, Nicholas Rivera\\ arXiv:2509.03482 (2025).
-
-- ##### [Noise immunity in quantum optical systems through non-Hermitian topology](https://arxiv.org/abs/2503.11620)
-    - **Jamison Sloan\***, Sachin Vaidya\*, Nicholas Rivera, Marin Soljačić\\ arXiv:2503.11620 (2025).
-
-@@year
-2023
-@@
-
-- ##### [Entangling extreme ultraviolet photons through strong field pair generation](https://arxiv.org/abs/2309.16466)
-    - **Jamison Sloan**, Alexey Gorlach, Matan Even Tzur, Nicholas Rivera, Oren Cohen, Ido Kaminer, Marin Soljačić\\ arXiv:2309.16466 (2023).
 
 @@
