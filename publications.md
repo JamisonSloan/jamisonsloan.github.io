@@ -12,11 +12,15 @@
 2024
 @@
 
-
+- ##### [Stochastic logic in biased coupled photonic probabilistic bits](https://arxiv.org/abs/2406.04000)
+    - M Horodynski, C Roques-Carmes, Y Salamin, S Choi, **J Sloan**, D Luo, M Soljačić\\ arXiv:2406.04000
 
 @@year
 2023
 @@
+
+- ##### [Entangling extreme ultraviolet photons through strong field pair generation](https://arxiv.org/abs/2309.16466)
+    - **J Sloan**, A Gorlach, M Even Tzur, N Rivera, O Cohen, I Kaminer, M Soljačić\\ arXiv:2309.16466
 
 
 @@year
@@ -37,6 +41,14 @@
 2024
 @@
 
+- ##### [Photonic probabilistic machine learning using quantum vacuum noise](https://www.nature.com/articles/s41467-024-07760-x)
+    - S Choi, Y Salamin, C Roques-Carmes, R Dangovski, D Luo, Z Chen, M Horodynski, **J Sloan**, SZ Uddin, M Soljačić\\ Nature Communications.
+
+
+- ##### [Driven-dissipative phases and dynamics in non-Markovian nonlinear photonics](https://opg.optica.org/optica/fulltext.cfm?uri=optica-11-10-1437&id=530584)
+    - **J Sloan**, N Rivera, M Soljačić\\ Optica.
+
+
 - ##### [Optical properties of dispersive time-dependent materials](https://pubs.acs.org/doi/full/10.1021/acsphotonics.3c00773)
     - **J Sloan**, N Rivera, JD Joannopoulos, M Soljačić\\ ACS Photonics.
 
@@ -48,11 +60,14 @@
     - N Rivera, **J Sloan**, I Kaminer, M Soljacic \\ arXiv:2111.07010
     - ~~~ <button><span class="add-icon icon-arrow-top-right">PDF</button> ~~~ 
 
+
 - ##### [Quantum electrodynamical metamaterials](https://doi.org/10.1103/PhysRevA.108.033509)
     - J Yu\*, **J Sloan\***, N Rivera, M Soljačić\\ Physical Review A.
 
+
 - ##### [Intense squeezed light from lasers with sharply nonlinear gain at optical frequencies](https://doi.org/10.1103/PhysRevLett.131.173801)
     - L Nguyen, **J Sloan**, N Rivera, M Soljačić\\ Physical Review Letters.
+
 
 - ##### [Biasing the quantum vacuum to control macroscopic probability distributions](https://doi.org/10.1126/science.adh4920)
     - C Roques-Carmes\*, Y Salamin\*, **J Sloan**, G Velez, E Koskas, S Choi, N Rivera, S Kooi, JD Joannopoulos, M Soljačić\\ Science.
